@@ -1,5 +1,5 @@
 # Olá! Eu sou Jaasiel Silva 👋
-
+- um apaixonado por tecnologia e um estudante dedicado de Desenvolvimento Full Stack. Estou empenhado em aprimorar minhas habilidades e explorar o vasto mundo do desenvolvimento de software.
 
 🌍 **Localização:** Nasci em Belém/PA e moro em São Paulo, Brasil 🇧🇷
 
