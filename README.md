@@ -17,11 +17,18 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </a>
+
 <a href="https://reactjs.org/" target="_blank">
   <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React.js" />
 </a>
 
-### Backend:
+- ### Backend:
+<a href="https://expressjs.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Node.js_with_Express-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js with Express" />
+</a>
+<a href="https://spring.io/projects/spring-boot" target="_blank">
+  <img src="https://img.shields.io/badge/Java_with_Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Java with Spring Boot" />
+</a>
 
 
 💼 **Experiência Profissional:**
