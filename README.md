@@ -33,6 +33,45 @@ SaaS de contratos recorrentes e ordem de serviço para prestadores de manutenç�
 
 ---
 
+### 💼 LexCRM — vendido para clientes reais
+
+Plataforma de gestão jurídica integrada, em produção atendendo escritórios/clientes reais — não é projeto de portfólio, é sistema pago em uso.
+
+![Java](https://img.shields.io/badge/Java%2017-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+- **Controle de processos e prazos:** cadastro de processos, controle de prescrição (prazo prescricional) e radar de vencimentos — evita perda de prazo, o maior risco de um escritório
+- **Financeiro e agenda** integrados ao processo/cliente, com geração de laudos
+- **RBAC granular:** políticas de acesso e permissões por usuário/perfil, painel de segurança dedicado
+- **Multi-cliente:** painel SuperAdmin com gestão de contas, chamados de suporte e monitoramento de backup automatizado
+- Deploy em produção via Docker (ambientes de produção e homologação separados)
+
+---
+
+### 🚗 LavaRapido — vendido para clientes reais
+
+Sistema de gestão para lava-jato multi-empresa, também em produção com cliente pagante — do agendamento à cobrança.
+
+![Java](https://img.shields.io/badge/Java%2017-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![WhatsApp API](https://img.shields.io/badge/WhatsApp%20API-25D366?style=flat-square&logo=whatsapp&logoColor=white)
+
+- **Multi-empresa:** cada cliente do SaaS opera isolado, com painel MASTER para visão global
+- **Operação completa:** clientes, veículos, agendamento, mensalistas (planos recorrentes), catálogo e vendas
+- **Retenção automatizada:** detecção de cliente sem retorno, campanha de aniversário e pesquisa de satisfação, tudo disparado via WhatsApp (integração Meta Cloud API + Z-API)
+- **Painel de fila em tempo real** para acompanhamento operacional do lava-jato
+- **Observabilidade:** stack própria de monitoramento (Prometheus, Grafana, Loki, Alertmanager) e backup monitorado
+- Deploy em produção e homologação, com pipeline de deploy via Docker Compose
+
+---
+
 - ### Frontend:
 <a href="https://www.w3.org/TR/html52/" target="_blank">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
