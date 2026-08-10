@@ -9,6 +9,30 @@ Desenvolvedor Full Stack apaixonado por construir produtos SaaS do zero — do m
 🚀 **O que eu construo:**
 Nos últimos meses venho desenvolvendo e operando diversas plataformas SaaS multi-tenant em produção, cobrindo áreas como gestão jurídica, gestão empresarial, atendimento (helpdesk), agendamento para profissionais de saúde e serviços automotivos — sempre com autenticação JWT/RBAC, multi-tenancy real e integração com WhatsApp (Z-API/WAHA).
 
+---
+
+### 🌟 Projeto em destaque: Zelly
+
+SaaS de contratos recorrentes e ordem de serviço para prestadores de manutenção técnica (climatização, dedetização, facilities, elevadores) — produto próprio, construído do zero: modelagem de domínio, multi-tenancy real, cobrança recorrente e deploy em produção.
+
+![Java](https://img.shields.io/badge/Java%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot%203-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular%2022-DD0031?style=flat-square&logo=angular&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL%208-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Asaas](https://img.shields.io/badge/Pagamentos-Asaas-00C2A8?style=flat-square)
+![JWT](https://img.shields.io/badge/Auth-JWT%20%2B%20RBAC-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+- **Multi-tenant real:** isolamento por `empresa_id` via `@TenantId` (Hibernate), provado por teste de isolamento
+- **Cobrança recorrente via Asaas:** integração com gateway de pagamento (sandbox), webhook de confirmação e régua própria de dunning para inadimplência
+- **Auth completa:** login, refresh token rotacionado, RBAC, convite de usuário, recuperação de senha
+- **Núcleo do produto:** `Contrato` (vigência, reajuste por índice, renovação), agenda com visitas automáticas, ordem de serviço (checklist, foto, assinatura)
+- **Ciclo comercial do SaaS:** planos, quotas, painel do dono, impersonação auditada, relatórios com MRR
+
+🔗 [zelly.digital](https://zelly.digital)
+
+---
+
 - ### Frontend:
 <a href="https://www.w3.org/TR/html52/" target="_blank">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
