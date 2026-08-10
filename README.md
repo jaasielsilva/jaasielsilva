@@ -122,7 +122,7 @@ Sistema de gestão para lava-jato multi-empresa, também em produção com clien
 📫 **Vamos nos conectar!**
 Se você está interessado em colaborar em projetos ou só quer bater um papo sobre tecnologia, fico à disposição.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-JaasielSilva-blue)](https://www.linkedin.com/in/jaasiel-silva-4021a6229/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-JaasielSilva-blue)](https://www.linkedin.com/in/jaasiel-silva-b86b75303/)
 
 <div>
 <a href="mailto:jasiel1@outlook.com">
